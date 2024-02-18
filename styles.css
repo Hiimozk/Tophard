@@ -1,0 +1,116 @@
+/* Estilos CSS */
+*{
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+
+}
+
+.search-bar input[type="text"] {
+  width: 25vh;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search-bar a img {
+  width: 2.5vh;
+  vertical-align: middle; /* Alinea verticalmente la imagen */
+  margin-left: 10px; /* Ajusta el margen izquierdo si es necesario */
+}
+
+
+.user-panel a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+
+/* Estilos para la fila de categorías */
+
+/* Estilos para el botón y el menú desplegable */
+/* Estilos para el botón y el menú desplegable */
+#categoriasBtn {
+  display: inline-block;
+  position: relative; /* Para posicionar correctamente el menú desplegable */
+}
+
+#hamburguesa1 {
+  width: 2.5vh;
+  margin-right: 5px; /* Ajustamos el espacio entre la imagen y el texto */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%; /* Colocamos el menú desplegable debajo del botón */
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+.show {
+  display: block;
+}
+
+/* Alineamos verticalmente los elementos en el menú desplegable */
+.dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Estilo adicional para hover en categorías */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.categorias-row {
+
+  position: relative; /* Aseguramos que el menú desplegable sea relativo a la fila de categorías */
+  margin: 2.5vh;
+  margin-left: 12vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+  .logo img {
+    max-height: 40px;
+  }
+  .search-bar input[type="text"] {
+    padding: 6px;
+  }
+  .search-bar button {
+    padding: 6px 12px;
+  }
+}
+

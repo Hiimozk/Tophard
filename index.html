@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tu Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <!-- Aquí va tu logo -->
+            <img src="/img/icons8-hardware-de-computadora-para-juegos-externos-relleno-soft-fill-soft-juicy-fish-60.png"
+                alt="Logo de tu tienda">
+        </div>
+        <div class="search-bar">
+            <!-- Aquí va tu barra de búsqueda -->
+            <input type="text" placeholder="Buscar productos...">
+            <a href="">
+                <img src="img/211817_search_strong_icon.png" alt="">
+            </a>
+        </div>
+        <div class="user-panel">
+            <!-- Aquí va tu panel de usuario -->
+            <a href="#">Iniciar sesión</a>
+            <a href="#">Registrarse</a>
+        </div>
+    </header>
+    <div class="categorias-row">
+        <div class="hamburguesa" id="categoriasBtn">
+            <img src="/img/134216_menu_lines_hamburger_icon.png" alt="" id="hamburguesa1">
+            Categorías
+            <div class="dropdown-content" id="categoriasDropdown">
+                <a href="#">Categoría 1</a>
+                <a href="#">Categoría 2</a>
+                <a href="#">Categoría 3</a>
+            </div>
+        </div>
+    </div>
+    <!-- El resto del contenido de tu página va aquí -->
 </body>
+
+
+
+<script src="script.js"></script>
+
 </html>
